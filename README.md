@@ -3,14 +3,10 @@
 # RKNN Model Zoo
 
 ## Description
-
 `RKNN Model Zoo` is developed based on the RKNPU SDK toolchain and provides deployment examples for current mainstream algorithms. Include the process of `exporting the RKNN model` and using `Python API` and `CAPI` to infer the RKNN model.
 
 - Support `RK3562`, `RK3566`, `RK3568`, `RK3588` platforms. (`RV1103`, `RV1106` platforms support `mobilenet`, `yolov5`)
-- `RK1808`, `RK3399PRO`, `RV1109`, `RV1126` will be supported in next version. (For `yolov5/6/7/8`, `yolox`, `ppyoloe` demos, they are available in  [`v1.5.0`](https://github.com/airockchip/rknn_model_zoo/tree/v1.5.0), please switch to [`v1.5.0`](https://github.com/airockchip/rknn_model_zoo/tree/v1.5.0) to get them)
-
-
-
+- `RK1808`, `RK3399PRO`, `RV1109`, `RV1126` will be supported in next version. (For `yolov5/6/7/8`, `yolox`, `ppyoloe` demos, they are available in  [`v1.5.0`](https://github.com/airockchip/rknn_model_zoo/tree/v1.5.0), please switch to [`v1.5.0`](https://github.com/airockchip/rknn_model_zoo/tree/v1.5.0) to get them
 ## Dependency library installation
 
 `RKNN Model Zoo` relies on `RKNN-Toolkit2` for model conversion. The Android compilation tool chain is required when compiling the Android demo, and the Linux compilation tool chain is required when compiling the Linux demo. For the installation of these dependencies, please refer to the `Quick Start` documentation at https://github.com/airockchip/rknn-toolkit2/tree/master/doc.
